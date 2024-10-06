@@ -1,12 +1,12 @@
 ﻿using CLASSE;
 //MaClasse mc = new MaClasse();
-Pokemon Pok = new();
 Calculatrice Calc = new();
 
 //Ici j'ai appris à call mes class et leurs configurations
 System.Console.WriteLine($"{Calc.Addition(1,5)}"); 
 System.Console.WriteLine($"{Calc.Multiplication(10,2)}"); 
 
-//création PokemonObjet
-Pokemon PokemonPikachu = new Pokemon {name = "pikachu", pv = 87};
+//création PokemonObjet + Utilisation méthode de la classe
+//Pokemon PokemonPikachu = new Pokemon {namePokemon = "pikachu", pvPokemon = 87}; // méthode à utilisaer avec un connstructeur vide/default
+Pokemon PokemonPikachu = new Pokemon("pikachu", 187);
 PokemonPikachu.DataPokemon();

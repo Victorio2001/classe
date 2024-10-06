@@ -5,12 +5,18 @@ namespace CLASSE
     //public == visible pour tout le monde
     public class Pokemon
     {
-        public string? name {get; set;} = "default"; // accesseurs en lecture et écriture + default
-        public int? pv {get; set;} = 10;
+        public string namePokemon {get; set;} = "default"; // accesseurs en lecture et écriture + default
+        public int pvPokemon {get; set;} = 10;
+
+        public Pokemon(string name, int pv)
+        {
+            namePokemon = name;
+            pvPokemon = pv;
+        }
 
         public void DataPokemon()
         {
-            Console.WriteLine($"Nom: {name}, Pv: {pv}");
+            Console.WriteLine($"Nom: {namePokemon}, Pv: {pvPokemon}");
         }
         public void Ecrire(string a){
             //void == Méthode qui ne retourne rien
