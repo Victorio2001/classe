@@ -5,7 +5,6 @@ namespace CLASSE
     //public == visible pour tout le monde
     public class Pokemon
     {
-        private int v;
 
         public string namePokemon {get; set;} = "default"; // accesseurs en lecture et écriture + default
         public int pvPokemon {get; set;} = 10;
@@ -14,11 +13,6 @@ namespace CLASSE
         {
             namePokemon = name;
             pvPokemon = pv;
-        }
-
-        public Pokemon(int v)
-        {
-            this.v = v;
         }
 
         public void DataPokemon()
