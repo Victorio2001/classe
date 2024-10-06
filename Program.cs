@@ -10,3 +10,7 @@ System.Console.WriteLine($"{Calc.Multiplication(10,2)}");
 //Pokemon PokemonPikachu = new Pokemon {namePokemon = "pikachu", pvPokemon = 87}; // méthode à utilisaer avec un connstructeur vide/default
 Pokemon PokemonPikachu = new Pokemon("pikachu", 187);
 PokemonPikachu.DataPokemon();
+
+Pikachu pika = new("pikachuHeritage", 320);
+pika.DataPokemon();
+pika.attaqueFatalFoudre();
