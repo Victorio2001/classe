@@ -9,6 +9,11 @@ namespace CLASSE
         public Pikachu(string name, int pv) : base(name, pv)
         {
         }
+
+        /**
+        * ! dcdcsc
+        *
+        **/
     
         // public Pikachu() :base(34)
         // {
