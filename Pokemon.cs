@@ -19,14 +19,9 @@ namespace CLASSE
         {
             Console.WriteLine($"Nom: {namePokemon}, Pv: {pvPokemon}");
         }
-        public void Ecrire(string a){
-            //void == Méthode qui ne retourne rien
-            System.Console.WriteLine($"retour de la fonction ecrire: {a}");
-        }
-        public string Lire(){
-            System.Console.WriteLine($"Veuillez saisir une valeur: ");
-            string saisie = Console.ReadLine();
-            return saisie;
+        public void Attack()
+        {
+            Console.WriteLine($"{namePokemon} attaque!");
         }
 
     }

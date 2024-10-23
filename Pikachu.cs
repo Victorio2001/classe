@@ -5,13 +5,17 @@ namespace CLASSE
     //public == visible pour tout le monde
     public class Pikachu : Pokemon
     {
-        //Revoir ceci: pas compris
-        public Pikachu(string name, int pv):base(name, pv){
-
+        //Revoir ceci: pas compris => https://learn.microsoft.com/fr-fr/dotnet/csharp/fundamentals/tutorials/inheritance
+        public Pikachu(string name, int pv) : base(name, pv)
+        {
         }
-
-        public void attaqueFatalFoudre(){
-            System.Console.WriteLine($"Pikachu attaque fatal Foudre");
+    
+        // public Pikachu() :base(34)
+        // {
+        // }
+        public void AttaqueFatalFoudre()
+        {
+            Console.WriteLine($"{namePokemon} utilise Fatal Foudre!");
         }
     }
 }
