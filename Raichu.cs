@@ -14,5 +14,9 @@ namespace CLASSE{
             {
             }
 
+        public override void Attaque_Eclair(){
+        System.Console.WriteLine($"Raichu attaque Eclair");
+        }
+
         }
 }

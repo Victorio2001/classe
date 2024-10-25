@@ -61,5 +61,9 @@ namespace CLASSE
         {
             Console.WriteLine($"{nom_pokemon} à pour statistiques: Vitesse => {vitesse_pikachu}, Attaque => {attaque_pikachu}, Defense => {defense_pikachu}, Attaque_Spe => {attaque_spe_pikachu}, Defense_Spe => {defense_spe_pikachu}");
         }
+
+        public virtual void Attaque_Eclair(){
+            System.Console.WriteLine($"Pikachu attaque Eclair");
+        }
     }
 }

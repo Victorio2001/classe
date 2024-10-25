@@ -22,8 +22,6 @@ p.Pikachu_Attack();
 p.Attack();
 }
 
-
-
 /***
  *      _____            _                                              _       _                          
  *     |  __ \          | |                                            | |     (_)                         
@@ -78,3 +76,21 @@ if(pikachu is Pikachu pi){//? pattern matching
 dresseur.Paralyser(pi);
 pi.Cri(pi);
 }
+
+/***
+ *       _____                         _                                   
+ *      / ____|                       | |                                  
+ *     | (___    _   _   _ __    ___  | |__     __ _   _ __    __ _    ___ 
+ *      \___ \  | | | | | '__|  / __| | '_ \   / _` | | '__|  / _` |  / _ \
+ *      ____) | | |_| | | |    | (__  | | | | | (_| | | |    | (_| | |  __/
+ *     |_____/   \__,_| |_|     \___| |_| |_|  \__,_| |_|     \__, |  \___|
+ *                                                             __/ |       
+ *                                                            |___/        
+ */
+ //! Use mot clef virtual pour la méthode de la classe parente, pour dire que cette méthode peut être utiliser tel quelle ou modifier.
+ //! Use mot clef Override depuis la classe child
+
+if(pikachu is Pikachu po){
+    po.Attaque_Eclair();
+}
+raichu.Attaque_Eclair();
