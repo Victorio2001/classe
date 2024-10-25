@@ -25,5 +25,12 @@ namespace CLASSE
             Console.WriteLine($"{nom_pokemon} attaque!");
         }
 
+        public void Cri(Pokemon pokemon)
+        {
+            if(pokemon is Pikachu p){//! Vérifie si le Pokemon est Pikachu et si oui applique ces méthodes dans la variable.
+                System.Console.WriteLine($"Cri de Pikachu => {p.nom_pokemon}");
+            }
+        }
+
     }
 }
