@@ -94,3 +94,19 @@ if(pikachu is Pikachu po){
     po.Attaque_Eclair();
 }
 raichu.Attaque_Eclair();
+
+/***
+ *                 _             _                           _     _                 
+ *         /\     | |           | |                         | |   (_)                
+ *        /  \    | |__    ___  | |_   _ __    __ _    ___  | |_   _    ___    _ __  
+ *       / /\ \   | '_ \  / __| | __| | '__|  / _` |  / __| | __| | |  / _ \  | '_ \ 
+ *      / ____ \  | |_) | \__ \ | |_  | |    | (_| | | (__  | |_  | | | (_) | | | | |
+ *     /_/    \_\ |_.__/  |___/  \__| |_|     \__,_|  \___|  \__| |_|  \___/  |_| |_|
+ *                                                                                   
+ *                                                                                   
+ */
+/*
+ ! l'abstraction d'une classe empeche la création d'une nouvelle instance
+*/
+dresseur.Parler();
+
