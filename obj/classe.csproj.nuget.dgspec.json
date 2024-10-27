@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjetC#\\classe\\classe.csproj": {}
+    "D:\\ProjetCSharp\\classe\\classe.csproj": {}
   },
   "projects": {
-    "D:\\ProjetC#\\classe\\classe.csproj": {
+    "D:\\ProjetCSharp\\classe\\classe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjetC#\\classe\\classe.csproj",
+        "projectUniqueName": "D:\\ProjetCSharp\\classe\\classe.csproj",
         "projectName": "classe",
-        "projectPath": "D:\\ProjetC#\\classe\\classe.csproj",
+        "projectPath": "D:\\ProjetCSharp\\classe\\classe.csproj",
         "packagesPath": "C:\\Users\\garci\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjetC#\\classe\\obj\\",
+        "outputPath": "D:\\ProjetCSharp\\classe\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\garci\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\garci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
