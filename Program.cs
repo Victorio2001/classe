@@ -131,8 +131,38 @@ dresseur.Parler();
  * - private protected -- union de protected et internal, visibiliter pour les child definit dans le même projet  et pas les classes child d'un autre projet.
  **/
 
+
  
+/***
+ *      _____           _                    __                       
+ *     |_   _|         | |                  / _|                      
+ *       | |    _ __   | |_    ___   _ __  | |_    __ _    ___    ___ 
+ *       | |   | '_ \  | __|  / _ \ | '__| |  _|  / _` |  / __|  / _ \
+ *      _| |_  | | | | | |_  |  __/ | |    | |   | (_| | | (__  |  __/
+ *     |_____| |_| |_|  \__|  \___| |_|    |_|    \__,_|  \___|  \___|
+ *                                                                    
+ *                                                                    
+ */
+ //! une Classe peut implémenter plusieurs interface
+ //! une Interface peut hériter elle même d'une  autre interface
+ //! pas besoin d'utiliser le mot clef override afin de substituer
+ //! si redéfinition de la méthode alors il est impossible d'appeler la méthode "d'origine"
+ //! pas de constructeur donc pas possible de forcer certaines informations à la création
+var chien = new Chien();
+chien.faire();
+
+//! Cas d'héritage entre Interface
+var test = new hopInterface();
+
  
+
+
+
+ 
+
+
+
+
 
 
 
