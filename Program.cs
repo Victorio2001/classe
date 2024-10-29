@@ -110,3 +110,29 @@ raichu.Attaque_Eclair();
 */
 dresseur.Parler();
 
+
+/***
+ *      _____                   _       __              
+ *     |  __ \                 | |     /_/              
+ *     | |__) |   ___    _ __  | |_    ___    ___   ___ 
+ *     |  ___/   / _ \  | '__| | __|  / _ \  / _ \ / __|
+ *     | |      | (_) | | |    | |_  |  __/ |  __/ \__ \
+ *     |_|       \___/  |_|     \__|  \___|  \___| |___/
+ *                                                      
+ *                                                      
+ */
+ /** 
+ * ! définit la visiblitée de qlqchs:
+ * - public -- visible par tous n'importe ou
+ * - private -- visible seulement à l'intérieur de la classe (use for méthode ou données)
+ * - internal -- visible uniquement dans le projet
+ * - protected -- visible dans la classe et dans toute ces child
+ * - protected internal -- visible dans une classe child d'un autre projet et le sien, jonction des deux visibilités
+ * - private protected -- union de protected et internal, visibiliter pour les child definit dans le même projet  et pas les classes child d'un autre projet.
+ **/
+
+ 
+ 
+
+
+
