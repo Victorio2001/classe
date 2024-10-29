@@ -154,6 +154,24 @@ chien.faire();
 //! Cas d'héritage entre Interface
 var test = new hopInterface();
 
+
+/***
+ *       _____   _             _     _        
+ *      / ____| | |           | |   (_)       
+ *     | (___   | |_    __ _  | |_   _    ___ 
+ *      \___ \  | __|  / _` | | __| | |  / __|
+ *      ____) | | |_  | (_| | | |_  | | | (__ 
+ *     |_____/   \__|  \__,_|  \__| |_|  \___|
+ *                                            
+ *                                            
+ */
+// Chien.faire(); Non static
+//! Pratique mais eviter un maximum le static pour les données.
+//! membre et propriété en privatttteeee comme sa modifiable que depuis la classe
+//! utiliser surtout pour les caches ou singleton
+
+ClassStatic.retour();
+
  
 
 
